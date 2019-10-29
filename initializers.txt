@@ -122,6 +122,13 @@ WebConsole::Railtie.web_console.template_paths
 WebConsole::Railtie.web_console.permissions
 WebConsole::Railtie.web_console.whiny_requests
 WebConsole::Railtie.i18n.load_path
+SequelRails::Railtie.sequel.load_hooks
+SequelRails::Railtie.sequel.configuration
+SequelRails::Railtie.sequel.logger
+SequelRails::Railtie.sequel.i18n_support
+SequelRails::Railtie.sequel.log_runtime
+SequelRails::Railtie.sequel.connect
+SequelRails::Railtie.sequel.spring
 ActionView::Railtie.prepend_helpers_path
 ActiveStorage::Engine.prepend_helpers_path
 ActionCable::Engine.prepend_helpers_path
