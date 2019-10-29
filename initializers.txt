@@ -122,13 +122,6 @@ WebConsole::Railtie.web_console.template_paths
 WebConsole::Railtie.web_console.permissions
 WebConsole::Railtie.web_console.whiny_requests
 WebConsole::Railtie.i18n.load_path
-SequelRails::Railtie.sequel.load_hooks
-SequelRails::Railtie.sequel.configuration
-SequelRails::Railtie.sequel.logger
-SequelRails::Railtie.sequel.i18n_support
-SequelRails::Railtie.sequel.log_runtime
-SequelRails::Railtie.sequel.connect
-SequelRails::Railtie.sequel.spring
 ActionView::Railtie.prepend_helpers_path
 ActiveStorage::Engine.prepend_helpers_path
 ActionCable::Engine.prepend_helpers_path
@@ -146,6 +139,13 @@ Webpacker::Engine.load_config_initializers
 Turbolinks::Engine.load_config_initializers
 TestAppRackAttack452::Application.load_config_initializers
 Rack::Attack::Railtie.rack.attack.middleware
+SequelRails::Railtie.sequel.load_hooks
+SequelRails::Railtie.sequel.configuration
+SequelRails::Railtie.sequel.logger
+SequelRails::Railtie.sequel.i18n_support
+SequelRails::Railtie.sequel.log_runtime
+SequelRails::Railtie.sequel.connect
+SequelRails::Railtie.sequel.spring
 ActionView::Railtie.engines_blank_point
 ActiveStorage::Engine.engines_blank_point
 ActionCable::Engine.engines_blank_point
