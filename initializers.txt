@@ -145,6 +145,7 @@ ActionText::Engine.load_config_initializers
 Webpacker::Engine.load_config_initializers
 Turbolinks::Engine.load_config_initializers
 TestAppRackAttack452::Application.load_config_initializers
+Rack::Attack::Railtie.rack.attack.middleware
 ActionView::Railtie.engines_blank_point
 ActiveStorage::Engine.engines_blank_point
 ActionCable::Engine.engines_blank_point
